@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int i;
+    cin >> i;
+
+    if(i % 400 == 0)
+    {
+        cout << "It is a leap year";
+    }
+    else  if(i % 4 == 0 && i % 100 != 0)
+    {
+        cout << "It is a leap year";
+    }
+    else
+    {
+       cout << "It is not a leap year";
+    }
+    return 0;
+}
